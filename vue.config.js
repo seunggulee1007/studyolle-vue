@@ -4,6 +4,7 @@ module.exports = {
         disableHostCheck: true,
         port: 3000,
     },
+
     pages: {
         index: {
             // entry for the page
@@ -21,4 +22,6 @@ module.exports = {
             favicon: './public/favicon.ico',
         },
     },
+
+    transpileDependencies: ['vuetify'],
 };
