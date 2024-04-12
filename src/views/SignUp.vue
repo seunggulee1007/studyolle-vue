@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-card>
-            <v-container>
+            <v-container class="d-flex justify-center mb-6">
                 <v-form ref="form" v-model="valid" lazy-validation>
                     <v-text-field type="text" v-model="nickname" :rules="nameRules" placeholder="닉네임을 입력해 주세요."></v-text-field>
                     <!-- <v-text-field type="text" :rules="emailRules" v-model="email" placeholder="이메일을 입력해 주세요."></v-text-field> -->

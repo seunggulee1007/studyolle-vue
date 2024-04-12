@@ -36,7 +36,6 @@ function doAxios(url, method, params, config) {
 }
 
 function errFunction(error) {
-    console.log(error);
     const {
         response: { data },
         response: { status },
